@@ -1,4 +1,4 @@
-all: intarray curlyarray chararray valentine
+all: intarray curlyarray chararray valentine average
 
 intarray: intarray.c
 	gcc intarray.c -o intarray
@@ -11,3 +11,5 @@ chararray: chararray.c
 
 valentine: valentine.c
 	gcc valentine.c -o valentine
+average: average.c
+	gcc average.c -o average
